@@ -453,7 +453,7 @@ client.on("message", async message => {
       
         if(command === "extra-channel") {
       
-          embed.setDescription(`You must specify a channel ID to add/remove from the blacklist!`);
+          embed.setDescription(`You must specify a channel ID to add/remove from the extra-xp-channels!`);
           embed.addField("Extra XP Channels", moreXPChannelss.length > 0 ? moreXPChannelss.map(g => g).join('\n') : "Doesn't Exist Anything!")
           if (!target) return message.channel.send(embed)
           if (moreXPChannelss.some(g => g.includes(target))) {
@@ -462,7 +462,7 @@ client.on("message", async message => {
             fs.writeFile("moreXP.json", JSON.stringify(xpList), (err) => {
               if (err) console.log(err);
             });
-            embed.setDescription(`${target}, removed from blacklist by ${message.author}!`);
+            embed.setDescription(`${target}, removed from extra-xp-channels by ${message.author}!`);
             message.channel.send(embed)
           } else {
             list = xpList
@@ -470,7 +470,7 @@ client.on("message", async message => {
             fs.writeFile("moreXP.json", JSON.stringify(list), (err) => {
               if (err) console.log(err);
             });
-            embed.setDescription(`${target}, added to the blacklist by ${message.author}!`);
+            embed.setDescription(`${target}, added to the extra-xp-channels by ${message.author}!`);
             message.channel.send(embed)
           };
         };
