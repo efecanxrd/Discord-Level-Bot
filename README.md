@@ -5,7 +5,7 @@
 <h4><img align="center" src="https://raw.githubusercontent.com/efecanxrd/efecanxrd/main/images/xe.gif" width="30"> Install NodeJS </h4>
 <h5>I recommend that you install NodeJS version 16 or higher </h5>
 <h4><img align="center" src="https://raw.githubusercontent.com/efecanxrd/efecanxrd/main/images/xe.gif" width="30"> Install Modules </h4>
-<h5> You need to install modules via typing 'npm i .' command. </h5>
+<h5> You need to install modules by typing 'npm i .' command. </h5>
 <h2> How this is working? </h2>
 <h4> We are tracking both text and voice channels. There are too many customize features for the rank system via config.json. For instance, you can edit all of the elements' color </h4>
 
