@@ -1,4 +1,4 @@
-<h2> Reddit Bot </h2>
+<h2> Discord Level Bot </h2>
 <h3> A discord bot that have a leveling system. This bot tracking both voice and text channels for give xp to users. </h3>
 <img src="https://i.imgur.com/qHAcfhX.gif">
 <h3> Setup The Project </h3>
